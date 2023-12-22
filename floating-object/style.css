@@ -1,0 +1,17 @@
+.container {
+	position: relative;
+	width: 100dvw;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.floating-obj {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	bottom: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: black;
+	transition: top 1.45s ease-in-out;
+}
